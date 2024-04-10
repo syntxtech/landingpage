@@ -26,8 +26,8 @@ const AboutUs = () => {
           </p>
 
           <p className="text-lg lg:text-xl leading-relaxed text-justify">
-            Whether you're a startup looking to establish your online presence,
-            a growing business seeking to scale your operations, or an
+            Whether you&apos;re a startup looking to establish your online
+            presence, a growing business seeking to scale your operations, or an
             established enterprise looking for innovative technology solutions,
             we are here to help. Contact us today to learn more about how
             Syntx.tech can support your business and take it to new heights!

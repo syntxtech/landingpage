@@ -3,7 +3,10 @@ import Image from "next/image";
 
 const Team = ({ user }: any) => {
   return (
-    <div className="flex flex-col p-4 border rounded-md gap-2 max-w-sm">
+    <div
+      className="flex flex-col p-4 border rounded-md gap-2 max-w-sm"
+      key={user.name}
+    >
       <div>
         {" "}
         <Image
