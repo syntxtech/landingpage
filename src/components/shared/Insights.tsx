@@ -6,8 +6,8 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Insights = () => {
   return (
-    <div className="flex flex-col w-full max-w-5xl items-center justify-center mt-24">
-      <h2 className="text-5xl mb-12">Why choose us ?</h2>
+    <div className="flex flex-col w-full max-w-5xl items-center justify-center mt-24 text-pretty">
+      <h2 className="text-3xl lg:text-5xl mb-8">Why choose us ?</h2>
       {benefits.map((benefit, index) => (
         <div
           key={index}
@@ -19,7 +19,7 @@ const Insights = () => {
             }`}
           >
             <div className="text-center md:text-left">
-              <h2 className="text-4xl font-bold mb-4">{benefit.title}</h2>
+              <h2 className="text-3xl font-bold mb-4">{benefit.title}</h2>
               <p className="mb-4 py-3">{benefit.description}</p>
               <ul className="mb-4">
                 {benefit.points.map((point, i) => (

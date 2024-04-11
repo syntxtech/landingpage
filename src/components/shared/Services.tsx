@@ -7,7 +7,7 @@ const Services = () => {
       className="w-full max-w-5xl  flex flex-col items-center gap-6 mt-10 mb-20 "
       id="services"
     >
-      <p className="text-5xl mb-4">Our Services</p>
+      <p className="text-3xl lg:text-4xl mb-4">Our Services</p>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-8">
         {services.map((option, index) => (
