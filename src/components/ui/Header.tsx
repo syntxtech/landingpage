@@ -10,7 +10,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
+      const currentScrollPos = window.scrollY;
       setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
       setPrevScrollPos(currentScrollPos);
     };
@@ -26,7 +26,6 @@ const Header = () => {
 
   return (
     <div
-      id="navbar"
       className="w-full lg:max-w-3xl mx-auto flex text-gray-400 justify-center gap-6 items-center p-4 lg:p-6 rounded-full border-2 bg-[#111827] sticky  shadow-md z-50"
       style={navbarStyle}
     >

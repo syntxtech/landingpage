@@ -2,7 +2,7 @@ import { FaEnvelope, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <div className="container mx-auto mt-10 mb-20 border max-w-5xl rounded-md p-4">
+    <div className="container mx-auto mt-10 mb-20 border max-w-6xl rounded-md p-4">
       <div className="text-center ">
         <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-center">
           Contact Us

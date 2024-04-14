@@ -1,6 +1,6 @@
 const AboutUs = () => {
   return (
-    <section className="w-full max-w-5xl py-16" id="about-us">
+    <section className="w-full max-w-6xl py-16" id="about-us">
       <div className="container mx-auto">
         <div className="text-center lg:text-left">
           <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-center">

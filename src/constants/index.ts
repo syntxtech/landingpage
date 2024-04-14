@@ -29,11 +29,11 @@ export const navLinks = [
       title: "Prioritizing Scalability & Maintainability",
       description: "We're committed to ensuring that your product remains scalable and maintainable for the long haul. Your vision drives us, and we're dedicated to bringing it to life.",
       points: [
-        { point: "Building for the Future", description: "Our focus on maintainable code ensures your product evolves seamlessly over time." },
-        { point: "Scalability at the Core", description: "We engineer solutions that grow with your business, adapting effortlessly to changing demands." },
-        { point: "Energized Remote Team", description: "With a remote team of experts, we deliver results with agility and efficiency." },
-        { point: "Efficient Engineering", description: "We optimize every aspect of development, providing cost-effective solutions without compromising quality." },
-        { point: "Comprehensive Documentation", description: "Transparency is paramount. We document everything to keep you informed every step of the way." }
+        "Future-focused code for seamless evolution.",
+            "Core scalability for effortless growth.",
+            "Agile efficiency with a remote expert team.",
+           "Cost-effective optimization without sacrificing quality.",
+                 "Transparent documentation for informed collaboration."
       ],
       animationData : RocketLaunch
     },
@@ -41,11 +41,11 @@ export const navLinks = [
       title: "Passionate about the Future",
       description: "In a rapidly evolving tech landscape, we thrive on challenges, keeping a keen eye on growth strategies and the future of technology.",
       points: [
-        { point: "Tech Enthusiasts", description: "Our team loves exploring emerging technologies, staying ahead of the curve to deliver innovative solutions." },
-        { point: "Independent and Driven", description: "With a supercharged team, we operate with minimal dependencies, maximizing efficiency." },
-        { point: "Entrepreneurial Spirit", description: "We approach every project with an entrepreneurial mindset, seeking opportunities for growth and innovation." },
-        { point: "User-Centric Focus", description: "Each line of code is crafted with users in mind, ensuring an exceptional experience every time." },
-        { point: "Passionate Team", description: "We're fueled by our love for what we do, delivering excellence with every project." }
+        "Exploring emerging tech for innovative solutions.",
+ "Independent and efficient with minimal dependencies.",
+ "Entrepreneurial mindset for growth and innovation.",
+  "User-centric coding for exceptional experiences.",
+  "Passionate team delivering excellence.",
       ],
       animationData : TeamWorking
 

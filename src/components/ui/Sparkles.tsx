@@ -22,10 +22,10 @@ type ParticlesProps = {
 export function Sparkles() {
   return (
     <div
-      className="h-[30rem] w-full  flex flex-col items-center justify-center overflow-hidden rounded-md mt-10"
+      className="h-[35rem] w-full  flex flex-col items-center justify-center overflow-hidden rounded-md mt-10"
       id="home"
     >
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+      <h1 className="md:text-5xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
         SYNTX TECH
       </h1>
       <div className="w-[42rem] h-40 relative">

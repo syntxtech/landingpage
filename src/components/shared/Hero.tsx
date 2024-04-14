@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedinIn, FaSquareXTwitter } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row  w-full max-w-5xl p-3 items-center justify-around">
+    <div className="flex flex-col lg:flex-row  w-full max-w-6xl p-3 items-center justify-around">
       <div className="flex text-justify flex-col  gap-8 p-2">
         <div className="max-w-xs text-xl lg:text-2xl">
           Turning Ideas into Functional Sites and Apps: Professional and

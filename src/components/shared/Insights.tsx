@@ -6,7 +6,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Insights = () => {
   return (
-    <div className="flex flex-col w-full max-w-5xl items-center justify-center mt-24 text-pretty">
+    <div className="flex flex-col w-full max-w-7xl items-center justify-center mt-24 text-pretty">
       <h2 className="text-3xl lg:text-5xl mb-8">Why choose us ?</h2>
       {benefits.map((benefit, index) => (
         <div
@@ -14,7 +14,7 @@ const Insights = () => {
           className="flex flex-wrap items-center justify-between py-8"
         >
           <div
-            className={`w-full md:w-1/2 lg:w-2/3 px-4 ${
+            className={`w-full md:w-1/2  px-4 ${
               index % 2 === 0 ? "order-2" : ""
             }`}
           >
@@ -29,9 +29,7 @@ const Insights = () => {
                   >
                     <div className="flex  gap-2  md:justify-start">
                       <FaCheckCircle size={22} className="text-green-600" />{" "}
-                      <div>
-                        <strong>{point.point}:</strong> {point.description}
-                      </div>
+                      <p>{point}</p>
                     </div>
                   </li>
                 ))}
@@ -39,7 +37,7 @@ const Insights = () => {
             </div>
           </div>
           <div
-            className={`w-full md:w-1/2 lg:w-1/3 px-4 ${
+            className={`w-full md:w-1/2  px-4 ${
               index % 2 !== 0 ? "order-1" : ""
             }`}
           >

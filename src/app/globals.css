@@ -35,3 +35,20 @@ body {
 html {
   scroll-behavior: smooth !important;
  }
+
+ #navbar {
+  /* Initial styling */
+  transition: transform 0.3s ease;
+  top: 0;
+}
+
+#navbar.hidden {
+  /* Hides the navbar when scrolled down */
+  transform: translateY(-100%);
+}
+
+
+/* Optional: Add styles for the active link */
+.active {
+  color: #ffffff;
+}
